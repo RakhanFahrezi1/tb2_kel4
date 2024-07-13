@@ -57,7 +57,14 @@
         <hr class="sidebar-divider mt-3">
 
     <?php endforeach; ?>
-
+    
+<!--Produk Barang-->
+        <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('produk'); ?>">
+            <i class="fas fa-pills"></i>
+            <span>Produk </span></a>
+    </li>
+<!--logout-->
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url('auth/logout'); ?>">
             <i class="fas fa-fw fa-sign-out-alt"></i>
